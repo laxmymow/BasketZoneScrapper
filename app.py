@@ -30,7 +30,7 @@ def main():
 
         if poczatkowy_but != nowy_but:
             wyslij_webhooka(nowy_but)
-            nowy_but = poczatkowy_but
+            poczatkowy_but = nowy_but
             
         time.sleep(ILE_CZEKAC)
 
